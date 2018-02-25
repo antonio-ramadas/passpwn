@@ -1,6 +1,13 @@
 passpwn - password breach checker
 ================
 
+Fork changes:
+ - Passwords captured on standard input
+ - Use of ```shasum``` instaed of ```sha1sum```
+ - Tested only on macOS
+
+================
+
 This is a tool for checking your passwords in [pass](https://www.passwordstore.org/) against [Have I been pwned?](https://haveibeenpwned.com/).
 
 passpwn uses the range API which means that we are only sending the first 5
